@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>router</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="../dist/router.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <ul>
+            <li>
+                <a href="/demo/login.html" data-page="true">login</a>
+            </li>
+            <li>
+                <a href="page2.html?v=123">Page 2</a>
+            </li>
+            <li>
+                <a href="page3/abc">Page 3</a>
+            </li>
+            <li>
+                <a href="http://www.baidu.com">百度</a>
+            </li>
+            <li>
+                <a href="a.html">aaaa</a>
+            </li>
+        </ul>
+
+        <div id="js_router_view">view</div>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

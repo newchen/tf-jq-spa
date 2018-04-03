@@ -1,0 +1,31 @@
+{
+    "name": "tf-jq-spa",
+    "version": "2.0.0",
+    "description": "基于jQuery的单页路由方案",
+    "main": "dist/router.js",
+    "browser": "dist/router.js",
+    "module": "src/router.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "mini": "webpack",
+        "unmini": "webpack",
+        "build": "npm run mini && npm run unmini"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-es2015-loose": "^8.0.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "es3ify-loader": "^0.2.0",
+        "webpack": "^3.5.5",
+        "webpack-dev-server": "^2.7.1"
+    },
+    "dependencies": {
+        "jquery": "^3.2.1",
+        "tf-regexp-escape": "^1.0.0"
+    }
+}
