@@ -1,5 +1,7 @@
 ## 基于 jQuery 的路由加载方案
 
+> v2.0.1
+
 ### 引入：
 
 ```javascript
@@ -109,7 +111,7 @@ Router.jumpTo(path, isFullPage); //路径跳转, isFullPage适用于你要跳过
 Router.getQuery(tag); //获取查询参数, tag为true返回一个对象
 Router.loading(fn); // 所有的页面加载中都会触发
 Router.loaded(fn); // 所有的页面加载完成后都会触发
-Router.unload(); // 所有的页面离开都会触发
+Router.unload(fn); // 所有的页面离开都会触发
 Router.reset(); //重置
 Router.remove(path); // 移除一个路由
 Router.add(arg); // 添加一个路由

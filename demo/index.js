@@ -2,7 +2,7 @@ var Router = new JQSPA.Router({
     // mode: "history",
     // pathRoot: "demo",
     componentRoot: "demo",
-    isDebug: true,
+    // isDebug: true,
     jsRoot: "demo"
 });
 
@@ -10,7 +10,7 @@ Router.routes([
     {
         path: "",
         component: "page1.html",
-        js: "page1.js",
+        // js: "page1.js",
         title: "测试标题1"
     },
     {
