@@ -1,7 +1,5 @@
 ## 基于 jQuery 的路由加载方案
 
-> v2.0.1
-
 ### 引入：
 
 ```javascript
@@ -44,7 +42,7 @@ Router.routes([
         component: "page2.html",
         loaded: function() {
             console.log("page2-----loaded");
-            console.log(Router.getQueryStr());
+            console.log(Router.getQuery());
         },
         unload: function() {
             console.log("unload page2");
@@ -58,7 +56,7 @@ Router.routes([
         component: "page3.html",
         loaded: function() {
             console.log("page3---", arguments);
-            console.log(Router.getQueryStr());
+            console.log(Router.getQuery());
         }
     },
 
@@ -135,4 +133,11 @@ Router.beforeJumpTo(); //跳转之前需要的操作，比如销毁弹出层(因
 ```html
 项目根目录命令行: http-server
 打开浏览器: http://127.0.0.1:8080/demo/
+```
+
+### 版本更新
+
+```
+  2.0.2:
+    package.json, readme更新
 ```

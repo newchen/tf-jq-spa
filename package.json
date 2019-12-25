@@ -1,8 +1,9 @@
 {
     "name": "tf-jq-spa",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "基于jQuery的单页路由方案",
     "main": "dist/router.min.js",
+    "browser": "dist/router.js",
     "module": "src/router.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",

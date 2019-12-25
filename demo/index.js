@@ -20,7 +20,7 @@ Router.routes([
         component: "page2.html",
         loaded: function() {
             console.log("page2-----loaded");
-            console.log(Router.getQueryStr());
+            console.log(Router.getQuery());
         },
         unload: function() {
             console.log("unload page2");
@@ -34,7 +34,7 @@ Router.routes([
         component: "page3.html",
         loaded: function() {
             console.log("page3---loaded", arguments);
-            console.log(Router.getQueryStr());
+            console.log(Router.getQuery());
         },
         unload: function() {
             console.log("unload page3");
